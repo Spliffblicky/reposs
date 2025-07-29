@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "CloudStore",
-    "slug": "CloudStore",
+    "slug": "NCloudStore",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/cloudstore-logo.png",
@@ -11,11 +11,11 @@
     "splash": {
       "image": "./assets/cloudstore-logo.png",
       "resizeMode": "contain",
-      "backgroundColor": "#0F0F0F",
+      "backgroundColor": "#000000",
       "dark": {
         "image": "./assets/cloudstore-logo.png",
         "resizeMode": "contain",
-        "backgroundColor": "#0F0F0F"
+        "backgroundColor": "#000000"
       }
     },
     "ios": {
@@ -49,6 +49,11 @@
           "cameraPermission": "Allow CloudStore to access your camera to scan documents."
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "72a6d53e-f411-463b-b69c-7e67507e254d"
+      }
+    }
   }
 }
